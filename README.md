@@ -1,5 +1,5 @@
 # Btap1_LapTrinh Web
-# Nguyễn Lam Sơn
+# Nguyễn nam Sơn
 # MSSV:K225480106076
 ## 1. Tạo DLL <br>
 <img width="435" height="270" alt="image" src="https://github.com/user-attachments/assets/be34ddaa-8188-43d5-a7e8-40e923151817" /> <br>

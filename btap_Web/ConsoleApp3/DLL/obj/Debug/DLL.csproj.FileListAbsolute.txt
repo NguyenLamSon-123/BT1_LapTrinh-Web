@@ -1,0 +1,6 @@
+C:\Users\ADMIN\source\repos\ConsoleApp3\DLL\bin\Debug\DLL.dll
+C:\Users\ADMIN\source\repos\ConsoleApp3\DLL\bin\Debug\DLL.pdb
+C:\Users\ADMIN\source\repos\ConsoleApp3\DLL\obj\Debug\DLL.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\ConsoleApp3\DLL\obj\Debug\DLL.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\ConsoleApp3\DLL\obj\Debug\DLL.dll
+C:\Users\ADMIN\source\repos\ConsoleApp3\DLL\obj\Debug\DLL.pdb

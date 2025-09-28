@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cosmic Web </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background: #f0f8ff;
+        }
+
+        h1 {
+            color: darkblue;
+        }
+
+        #result {
+            white-space: pre;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: 20px;
+            font-family: Consolas, monospace;
+        }
+
+        button {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔮 Cosmic Index Web</h1>
+    <label>Nhập tên/chuỗi:</label>
+    <input type="text" id="userInput" />
+    <button onclick="sendData()">Xem kết quả</button>
+
+    <div id="result"></div>
+
+    <script>
+        function sendData() {
+            var text = document.getElementById("userInput").value;
+            if (text.trim() === "") {
+                alert("Vui lòng nhập dữ liệu!");
+                return;
+            }
+
+            // Gửi AJAX POST tới api.aspx
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "api.aspx", true);
+            xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    var json = JSON.parse(xhr.responseText);
+                    document.getElementById("result").textContent = json.report;
+                }
+            };
+
+            // Encode input trước khi gửi
+            xhr.send("input=" + encodeURIComponent(text));
+        }
+    </script>
+</body>
+</html>

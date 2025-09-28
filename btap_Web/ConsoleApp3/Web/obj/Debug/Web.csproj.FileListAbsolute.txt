@@ -1,0 +1,10 @@
+C:\Users\ADMIN\source\repos\ConsoleApp3\Web\bin\Web.dll.config
+C:\Users\ADMIN\source\repos\ConsoleApp3\Web\bin\Web.dll
+C:\Users\ADMIN\source\repos\ConsoleApp3\Web\bin\Web.pdb
+C:\Users\ADMIN\source\repos\ConsoleApp3\Web\obj\Debug\Web.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\ConsoleApp3\Web\obj\Debug\Web.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\ConsoleApp3\Web\obj\Debug\Web.dll
+C:\Users\ADMIN\source\repos\ConsoleApp3\Web\obj\Debug\Web.pdb
+C:\Users\ADMIN\source\repos\ConsoleApp3\Web\bin\DLL.dll
+C:\Users\ADMIN\source\repos\ConsoleApp3\Web\bin\DLL.pdb
+C:\Users\ADMIN\source\repos\ConsoleApp3\Web\obj\Debug\Web.csproj.CopyComplete
